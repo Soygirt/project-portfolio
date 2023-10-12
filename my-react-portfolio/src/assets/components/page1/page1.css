@@ -1,0 +1,57 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap');*/
+
+body {
+background-color: rgb(252, 252, 252);
+
+}
+
+.parent {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 64px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 64px;
+}
+
+.img-style {
+height: 164px;
+width: 164px;
+border-radius: 164px;
+background: url(./src/assets/img/1697097249425.jpg) lightgrey 50% / cover no-repeat;
+}
+
+.name {
+color:rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 5px;
+}
+
+.frontend {
+color: #0B24F5;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.description {
+color: #000;
+font-family: Hind;
+width: 343px;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
